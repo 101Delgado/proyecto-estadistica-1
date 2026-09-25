@@ -39,7 +39,7 @@ Para visualizar la aplicación y los resultados de los ejercicios en tu propia c
 
 1. **Clona el repositorio:**
    ```bash
-   git clone [URL_DE_TU_REPOSITORIO]
+   git clone https://github.com/101Delgado/proyecto-estadistica-1
    cd ProyectoEstadistica1
    ```
 
