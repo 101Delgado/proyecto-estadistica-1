@@ -38,7 +38,7 @@ archivo_cargado = st.file_uploader("Suba el archivo temperaturas.txt", type=['tx
 
 if archivo_cargado is not None:
     # Leemos el archivo y lo guardamos en el session_state
-    df = pd.read_csv(archivo_cargado, delim_whitespace=True, encoding='utf-8')
+    df = pd.read_csv(archivo_cargado, sep='\s+')
     st.session_state['datos_cargados'] = df
     st.success("Archivo cargado y guardado en memoria.")
 
