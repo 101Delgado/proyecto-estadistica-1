@@ -1,0 +1,17 @@
+# Archivos compilados de Python (Esto ignorará todas las carpetas __pycache__)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (por si decides crear uno localmente para este proyecto)
+venv/
+env/
+.venv/
+env_estadistica/
+
+# Archivos de configuración de tu editor (Visual Studio Code)
+.vscode/
+
+# Archivos del sistema operativo (evita subir basura digital de Windows o Mac)
+Thumbs.db
+.DS_Store
